@@ -11,6 +11,4 @@ Necto is a utility service that provides a set of tools to help you build powerf
 
 Featured modules with the most comprehensive features and tools. 
 
-## Section 1
 
-## Section 2
