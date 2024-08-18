@@ -8,6 +8,9 @@ meta:
     ogDescription: Getting Started
     ogImage: null
     twitterCard: null
+analytics:
+  feedback: true
+  helpfulness: true
 ---
 
 Test code
