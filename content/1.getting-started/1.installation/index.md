@@ -14,6 +14,9 @@ analytics:
 ---
 
 ::cards
+     :::card{icon="cib:ruby" label="Scala"}
+    :::
+    
     :::card{icon="cib:ruby" label="Ruby"}
     :::
     
