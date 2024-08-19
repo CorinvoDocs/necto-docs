@@ -14,12 +14,12 @@ analytics:
 ---
 
 ::cards
-     :::card{icon="cib:ruby" label="Scala"}
+    :::card{label="Scala" to="/scala"}
     :::
     
-    :::card{icon="cib:ruby" label="Ruby"}
+    :::card{label="Ruby" to="/ruby"}
     :::
     
-    :::card{icon="cib:ruby" label="Java"}
+    :::card{label="Java"}
     :::
 ::
