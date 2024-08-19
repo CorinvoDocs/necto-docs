@@ -8,6 +8,9 @@ meta:
     ogDescription: Necto works with all of your favorite languages and package managers. Below, you'll find guides for the most common languages and pm's being used with Necto.
     ogImage: null
     twitterCard: null
+analytics:
+  feedback: true
+  helpfulness: true
 ---
 
 Test code
