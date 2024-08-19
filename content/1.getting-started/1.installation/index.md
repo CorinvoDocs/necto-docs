@@ -13,4 +13,7 @@ analytics:
   helpfulness: true
 ---
 
-Test code
+::cards
+    :::card{icon="cib:ruby" label="Ruby"}
+    :::card{icon="cib:ruby" label="Java"}
+::
