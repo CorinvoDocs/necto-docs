@@ -14,6 +14,9 @@ analytics:
 ---
 
 ::cards
+    :::card{label="JavaScript / TypeScript"}
+    :::
+
     :::card{label="Scala" to="/docs/getting-started/installation/ruby"}
     :::
     
@@ -21,5 +24,41 @@ analytics:
     :::
     
     :::card{label="Java"}
+    :::
+
+    :::card{label="Swift"}
+    :::
+
+    :::card{label="Elixir"}
+    :::
+
+    :::card{label="C++"}
+    :::
+
+    :::card{label=".NET"}
+    :::
+
+    :::card{label="Lua"}
+    :::
+
+    :::card{label="Go"}
+    :::
+
+    :::card{label="Crystal"}
+    :::
+
+    :::card{label="Kotlin"}
+    :::
+
+    :::card{label="Python"}
+    :::
+
+    :::card{label="Rust"}
+    :::
+
+    :::card{label="PHP"}
+    :::
+
+    :::card{label="Dart"}
     :::
 ::
