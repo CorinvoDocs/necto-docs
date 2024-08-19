@@ -13,7 +13,7 @@ analytics:
   helpfulness: true
 ---
 
-#data: {{ $doc }}
+# data: {{ $doc }}
 
 ::cards
     :::card{label="Scala" to="/scala"}
