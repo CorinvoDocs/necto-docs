@@ -14,10 +14,10 @@ analytics:
 ---
 
 ::cards
-    :::card{label="Scala" to="/scala"}
+    :::card{label="Scala" to="scala"}
     :::
     
-    :::card{label="Ruby" to="/ruby"}
+    :::card{label="Ruby" to="ruby"}
     :::
     
     :::card{label="Java"}
