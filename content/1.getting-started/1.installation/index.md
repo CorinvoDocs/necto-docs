@@ -16,6 +16,7 @@ analytics:
 ::cards
     :::card{icon="cib:ruby" label="Ruby"}
     :::
+    
     :::card{icon="cib:ruby" label="Java"}
     :::
 ::
