@@ -9,12 +9,21 @@ on:
       - main
 
 jobs:
-  markdown:
+  lint:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@main
-    - name: Lint Markdown
-      uses: actionshub/markdownlint@main
+    - uses: actions/checkout@v4
       with:
-        filesToIgnoreRegex: '((test|example|bin)\/.*|docs\/RULES.md)'
+        fetch-depth: 0
+    - uses: tj-actions/changed-files@v44
+      id: changed-files
+      with:
+        files: '**/*.md'
+        separator: ","
+    - uses: DavidAnson/markdownlint-cli2-action@v16
+      if: steps.changed-files.outputs.any_changed == 'true'
+      continue-on-error: true
+      with:
+        config: './.markdownlint.json'
+        globs: ${{ steps.changed-files.outputs.all_changed_files }}
+        separator: ","
