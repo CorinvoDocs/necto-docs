@@ -9,14 +9,12 @@ on:
       - main
 
 jobs:
-  markdown-lint:
+  markdown:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
-
-      - name: Install Markdown lint
-        run: gem install mdl
-
-      - name: Run Markdown lint
-        run: mdl '**/*.md'
+    - name: Checkout repository
+      uses: actions/checkout@main
+    - name: Lint Markdown
+      uses: actionshub/markdownlint@main
+      with:
+        filesToIgnoreRegex: '((test|example|bin)\/.*|docs\/RULES.md)'
