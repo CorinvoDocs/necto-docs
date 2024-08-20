@@ -16,7 +16,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Install Markdown lint
-        run: npm install markdownlint-cli
+        run: gem install mdl
 
       - name: Run Markdown lint
-        run: markdownlint '**/*.md'
+        run: mdl '**/*.md'
