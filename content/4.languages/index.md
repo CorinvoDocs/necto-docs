@@ -1,10 +1,9 @@
 ---
-title: Supported Languages
-navTitle: Languages
+title: Languages
 description: Install Necto for your favorite programming languages in seconds.
 meta: 
-    title: Supported Languages
-    ogTitle: Supported Languages
+    title: Languages
+    ogTitle: Languages
     description: Install Necto for your favorite programming languages in seconds.
     ogDescription: Install Necto for your favorite programming languages in seconds.
     ogImage: null
