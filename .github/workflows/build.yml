@@ -29,8 +29,8 @@ jobs:
           echo "status_passed=false" >> $GITHUB_OUTPUT
         fi
 
-    - name: Trigger Webhook
+    - name: Trigger Build Webhook
       if: steps.status_check.outputs.status_passed == 'true'
-      uses: jasongitmail/fast-webhook@v1.1.4
-      with:
-        url: ${{ secrets.BUILD_WEBHOOK_URL }}
+      run: |
+        curl -X POST -d '{}' "${{ secrets.NECTO_BUILD_WEBHOOK }}" -H "Content-Type:application/json"
+
