@@ -31,7 +31,6 @@ jobs:
 
     - name: Trigger Webhook
       if: steps.status_check.outputs.status_passed == 'true'
-      uses: johannes-huther/webhook.sh@v1.0.0
+      uses: jasongitmail/fast-webhook@v1.1.4
       with:
-        webhook_url: ${{ secrets.BUILD_WEBHOOK_URL }}
-        webhook_type: json
+        url: ${{ secrets.BUILD_WEBHOOK_URL }}
