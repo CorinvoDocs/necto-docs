@@ -1,0 +1,37 @@
+name: Build
+
+on:
+  pull_request:
+    types:
+      - closed
+    branches:
+      - main
+
+jobs:
+  webhook:
+    runs-on: ubuntu-latest
+    if: github.event.pull_request.merged == true
+    
+    steps:
+    - name: Check if all status checks passed
+      id: status_check
+      run: |
+        SHA=${{ github.event.pull_request.merge_commit_sha }}
+        STATUS=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+                 "https://api.github.com/repos/${{ github.repository }}/commits/$SHA/status" \
+                 | jq -r '.state')
+        
+        if [ "$STATUS" = "success" ]; then
+          echo "All status checks passed"
+          echo "status_passed=true" >> $GITHUB_OUTPUT
+        else
+          echo "Not all status checks passed"
+          echo "status_passed=false" >> $GITHUB_OUTPUT
+        fi
+
+    - name: Trigger Webhook
+      if: steps.status_check.outputs.status_passed == 'true'
+      uses: johannes-huther/webhook.sh@v1.0.0
+      with:
+        webhook_url: ${{ secrets.BUILD_WEBHOOK_URL }}
+        webhook_type: json
