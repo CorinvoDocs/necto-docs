@@ -44,7 +44,7 @@ analytics:
     Go is a modern, statically typed language developed by Google for building scalable and concurrent systems with ease.
     :::
     
-    :::card{label="Java" icon="logos:java" to="/docs/languages/java"}
+    :::card{label="Java" icon="devicon:java" to="/docs/languages/java"}
     #description
     Java is an object-oriented language developed by Oracle for building enterprise-level applications that run anywhere.
     :::
