@@ -7,11 +7,12 @@ on:
     branches:
       - main
 
+permissions: read-all 
 jobs:
   webhook:
     runs-on: ubuntu-latest
     if: github.event.pull_request.merged == true
-    
+    permissions: read-all
     steps:
     - name: Check if all status checks passed
       id: status_check
@@ -32,5 +33,5 @@ jobs:
     - name: Trigger Build Webhook
       if: steps.status_check.outputs.status_passed == 'true'
       run: |
-        curl -X POST -d '{}' "${{ secrets.NECTO_BUILD_WEBHOOK }}" -H "Content-Type:application/json"
-
+          URL="${{ secrets.NECTO_BUILD_WEBHOOK }}"
+          curl -X POST -d {} "$URL" -H "Content-Type: application/json"
