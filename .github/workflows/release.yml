@@ -1,15 +1,13 @@
-name: Build
+name: Release
 
 on:
-  pull_request:
-    types:
-      - closed
-    branches:
-      - main
+  release:
+    types: [published]
 
 permissions: read-all 
 jobs:
   webhook:
+    if: "!github.event.release.prerelease"
     runs-on: ubuntu-latest
     permissions: read-all
     steps:
