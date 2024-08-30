@@ -10,8 +10,6 @@ It offers a cohesive ecosystem that unifies the experience of working with diffe
 
 ## The common problem  
 
-In modern software development, projects often rely on numerous third-party dependencies to implement various functionalities. While these dependencies can speed up development, they also introduce several challenges:
-
 In modern software development, projects often rely on numerous third-party dependencies to implement various functionalities. While these dependencies can speed up development, they also introduce several challenges. Managing multiple libraries with conflicting versions can lead to compatibility issues, while poorly optimized or bloated libraries can significantly impact application performance. The overhead of integrating and maintaining multiple dependencies adds complexity to projects, and bugs or vulnerabilities in third-party code can compromise entire systems. Moreover, using different libraries for similar functions across languages leads to fragmented codebases and inconsistent development experiences.
 
 ## Necto: The Solution
@@ -25,10 +23,6 @@ Necto tackles these challenges by providing a comprehensive, unified solution. I
 
 Featured modules with the most comprehensive features and tools. 
 
-### This is an H3 for some tests
+## Examples By Category
 
-This is the p tag inside of the H3
-
-#### This is an H4 Tag inside of H3
-
-## This is a new H1 tag
+## Guides 
