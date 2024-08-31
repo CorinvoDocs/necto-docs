@@ -13,5 +13,5 @@ jobs:
     steps:
     - name: Trigger Build Webhook
       run: |
-          URL="${{ secrets.NECTO_BUILD_WEBHOOK }}"
+          URL="${{ secrets.AMPLIFY_BUILD_WEBHOOK }}"
           curl -X POST -d {} "$URL" -H "Content-Type: application/json"
