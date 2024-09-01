@@ -6,11 +6,11 @@ description: Are you new to Necto? Want to jump start your journey to get develo
 ---
 
 ::content-showcase{heading="Get started in minutes" title="View Starter Projects" button='{"title": "View All Templates", "to": "https://github.com/nectoutil/examples"}'}
-    :::card{type="showcase" to="/templates/django-routing" icons='["icons:django", "icons:necto"]'}
+    :::card{type="showcase" to="/templates/django-routing" icons='["icons:necto", "logos:vitejs"]'}
     #title
-    Django Routing
+    Vite Plugins
     #description
-    Get started with Django and Necto router addon.
+    Get started with VIte and Necto addons.
     ::: 
      
     :::card{type="showcase" icons='["icons:necto", "devicon:tailwindcss"]'}
