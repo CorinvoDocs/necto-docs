@@ -26,4 +26,11 @@ description: Are you new to Necto? Want to jump start your journey to get develo
     #description
     Simple CLI app with Necto and Go.
     :::
+
+    :::card{type="showcase" icons='["icons:necto", "devicon:rollup"]'}
+    #title
+    Rollup Plugins
+    #description
+    Utility plugins for Rollup with Necto.
+    :::
 ::  
