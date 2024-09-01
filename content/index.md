@@ -8,24 +8,17 @@ Some Stuff here
 ---
 
 ::content-showcase{heading="Get started in minutes" title="View Starter Projects" button='{"title": "View All Templates", "to": "/templates"}'}
-    :::card{type="showcase" to="/templates/django-routing" icons='{"primary": "icons:necto", "secondary": "icons:django"}'}
+    :::card{type="showcase" to="/templates/django-routing" icons='["icons:django", "icons:necto"]'}
     #title
     Django Routing
     #description
     Get started with Django and Necto router addon.
     ::: 
     
-    :::card{type="showcase" icons='{"primary": "icons:necto", "secondary": "devicon:tailwindcss"}'}
+    :::card{type="showcase" icons='["icons:necto", "devicon:tailwindcss"]'}
     #title
     Tailwind CSS
     #description
     Get started with Tailwind CSS and Necto utilities.
-    ::: 
-
-    :::card{type="showcase" icons='{"primary": "icons:necto", "secondary": "vscode-icons:file-type-nuxt"}'}
-    #title
-    Nuxt.js
-    #description
-    Get started with Nuxt and Necto utilities.
     ::: 
 ::
