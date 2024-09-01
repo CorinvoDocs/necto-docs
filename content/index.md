@@ -13,7 +13,7 @@ description: Are you new to Necto? Want to jump start your journey to get develo
     Get started with VIte and Necto addons.
     :::  
 
-    :::card{type="showcase" icons='["icons:necto", "logos:nuxt-icon", "devicon:tailwindcss"]'}
+    :::card{type="showcase" icons='["icons:necto", "vscode-icons:file-type-nuxt", "devicon:tailwindcss"]'}
     #title
     Nuxt + Tailwind
     #description
