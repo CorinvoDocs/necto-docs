@@ -20,7 +20,7 @@ description: Are you new to Necto? Want to jump start your journey to get develo
     Starter kit for Nuxt, Tailwind and Necto.
     :::
 
-    :::card{type="showcase" icons='["icons:necto", "icons:go"]'}
+    :::card{type="showcase" icons='["icons:necto", "fa6-brands:golang"]'}
     #title
     Necto Go Starter
     #description
