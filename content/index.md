@@ -11,19 +11,19 @@ description: Are you new to Necto? Want to jump start your journey to get develo
     Vite Plugins
     #description
     Get started with VIte and Necto addons.
-    ::: 
-     
-    :::card{type="showcase" icons='["icons:necto", "devicon:tailwindcss"]'}
+    :::  
+
+    :::card{type="showcase" icons='["icons:necto", "logos:nuxt-icon", "devicon:tailwindcss"]'}
     #title
-    Tailwind CSS
+    Nuxt + Tailwind
     #description
-    Get started with Tailwind CSS and Necto utilities.
+    Starter kit for Nuxt, Tailwind and Necto.
     :::
 
-    :::card{type="showcase" icons='["icons:necto", "vscode-icons:file-type-nuxt", "devicon:tailwindcss"]'}
+    :::card{type="showcase" icons='["icons:necto", "icons:go"]'}
     #title
-    Nuxt.js
+    Necto Go Starter
     #description
-    Get started with Nuxt.js + Tailwind CSS and Necto.
+    Simple CLI app with Necto and Go.
     :::
 ::  
