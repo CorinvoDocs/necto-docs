@@ -100,3 +100,7 @@ We've built some [templates](https://github.com/nectoutil/examples) that include
 ::
 
 ---
+
+::content-showcase{heading="Necto at Corinvo" title="Corinvo's open source tools built on Necto"}
+
+::
