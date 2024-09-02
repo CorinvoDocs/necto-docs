@@ -24,7 +24,7 @@ We've built some [templates](https://github.com/nectoutil/examples) that include
 ::  
 
 ::content-showcase{title="Frameworks"}
-    :::card{type="showcase" to="https://github.com/nectoutil/examples/tree/main/with-nuxt-tailwind" icons='["icons:necto", "vscode-icons:file-type-nuxt", "devicon:tailwindcss"]'}
+    :::card{type="showcase" to="https://github.com/nectoutil/examples/tree/main/with-nuxt-tailwind" icons='["icons:necto", "vscode-icons:file-type-nuxt", "devicon:tailwindcss"]' tags='[{"icon": "carbon:application-web", "label": "Web App"}, {"icon": "material-symbols:tools-power-drill-outline", "label": "Build Tool"}]'}
     #title
     Nuxt 3 and Tailwind Boilerplate
     #description
