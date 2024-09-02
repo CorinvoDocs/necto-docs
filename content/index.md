@@ -3,6 +3,10 @@ title: Necto Documentation
 description: Are you new to Necto? Want to jump start your journey to get developing as fast as possible? The fastest way to get started us by jumping in directly to a module for the language of your choice.
 ---    
 
+## Templates
+
+We've built some [templates](https://github.com/nectoutil/examples) that include Necto integrations for different languages, frameworks, and toolings. You can use these templates to get started with your Necto-powered application.
+
 ---
 
 ::content-showcase{heading="Get started in minutes" title="View Starter Projects" button='{"title": "View All Templates", "to": "https://github.com/nectoutil/examples"}'}
