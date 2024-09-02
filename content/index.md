@@ -28,7 +28,14 @@ We've built some [templates](https://github.com/nectoutil/examples) that include
     #title
     Nuxt 3 and Tailwind Boilerplate
     #description
-    Nuxt 3 and Tailwind CSS Boilerplate with Necto's Pre-Configured Plugins and Utilities
+    Nuxt 3 and Tailwind CSS boilerplate with Necto's pre-configured plugins and utilities.
+    :::
+    
+    :::card{type="showcase" to="https://github.com/nectoutil/examples/tree/main/with-nuxt-tailwind" icons='["icons:necto", "icons:nextjs, "vscode-icons:file-type-turbo"]'}
+    #title
+    Next.js and Turbo Starter
+    #description
+    Get started with Next.js and Turbo using Necto's plugins and utilities.
     :::
 ::
 
