@@ -31,7 +31,7 @@ We've built some [templates](https://github.com/nectoutil/examples) that include
     Nuxt 3 and Tailwind CSS boilerplate with Necto's pre-configured plugins and utilities.
     :::
     
-    :::card{type="showcase" to="https://github.com/nectoutil/examples/tree/main/with-nuxt-tailwind" icons='["icons:necto", "icons:nextjs", "vscode-icons:file-type-turbo"]' tags='["{"icon": "carbon:application-web", "label": "Web App"}", "{"icon": "material-symbols:tools-power-drill-outline", "label": "Build Tool"}"]'}
+    :::card{type="showcase" to="https://github.com/nectoutil/examples/tree/main/with-nuxt-tailwind" icons='["icons:necto", "icons:nextjs", "vscode-icons:file-type-turbo"]' tags='[{"icon": "carbon:application-web", "label": "Web App"}, {"icon": "material-symbols:tools-power-drill-outline", "label": "Build Tool"}]'}
     #title
     Next.js and Turbo Starter
     #description
