@@ -7,7 +7,7 @@ description: Are you new to Necto? Want to jump start your journey to get develo
 
 We've built some [templates](https://github.com/nectoutil/examples) that include Necto integrations for different languages, frameworks, and toolings. You can use these templates to get started with your Necto-powered application.
 
-::content-showcase{title="Languages" button='{"title": "View All Templates", "to": "https://github.com/nectoutil/examples"}'}
+::content-showcase{title="Languages"}
     :::card{type="showcase" icons='["icons:necto", "devicon:lua"]'}
     #title
     Lua As Configuration
@@ -23,7 +23,7 @@ We've built some [templates](https://github.com/nectoutil/examples) that include
     :::
 ::  
 
-::content-showcase{title="Frameworks" button='{"title": "View All Templates", "to": "https://github.com/nectoutil/examples"}'}
+::content-showcase{title="Frameworks"}
     :::card{type="showcase" to="https://github.com/nectoutil/examples/tree/main/with-nuxt-tailwind" icons='["icons:necto", "vscode-icons:file-type-nuxt", "devicon:tailwindcss"]'}
     #title
     Nuxt 3 and Tailwind Boilerplate
@@ -32,7 +32,7 @@ We've built some [templates](https://github.com/nectoutil/examples) that include
     :::
 ::
 
-::content-showcase{title="Tools" button='{"title": "View All Templates", "to": "https://github.com/nectoutil/examples"}'}
+::content-showcase{title="Tools"}
     :::card{type="showcase" to="https://github.com/nectoutil/examples/tree/main/with-rollup" icons='["icons:necto", "devicon:rollup"]'}
     #title
     Rollup
