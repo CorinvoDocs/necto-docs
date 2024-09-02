@@ -13,21 +13,21 @@ description: Are you new to Necto? Want to jump start your journey to get develo
     Starter kit for Lua.
     :::  
 
-    :::card{type="showcase" icons='["icons:necto", "vscode-icons:file-type-nuxt", "devicon:tailwindcss"]'}
+    :::card{type="showcase" to="https://github.com/nectoutil/examples/tree/main/with-nuxt-tailwind" icons='["icons:necto", "vscode-icons:file-type-nuxt", "devicon:tailwindcss"]'}
     #title
     Nuxt + Tailwind
     #description
     Starter kit for Nuxt, Tailwind and Necto.
     :::
 
-    :::card{type="showcase" icons='["icons:necto", "fa6-brands:golang~[#00B4E0]"]'}
+    :::card{type="showcase" to="https://github.com/nectoutil/examples/tree/main/with-go" icons='["icons:necto", "fa6-brands:golang~[#00B4E0]"]'}
     #title
     Necto Go Starter
     #description
     Simple CLI app with Necto and Go.
     :::
 
-    :::card{type="showcase" icons='["icons:necto", "devicon:rollup"]'}
+    :::card{type="showcase" to="https://github.com/nectoutil/examples/tree/main/with-rollup" icons='["icons:necto", "devicon:rollup"]'}
     #title
     Rollup Plugins
     #description
