@@ -8,11 +8,11 @@ description: Are you new to Necto? Want to jump start your journey to get develo
 We've built some [templates](https://github.com/nectoutil/examples) that include Necto integrations for different languages, frameworks, and toolings. You can use these templates to get started with your Necto-powered application.
 
 ::content-showcase{title="Languages"}
-    :::card{type="showcase" icons='["icons:necto", "devicon:lua"]'}
+    :::card{type="showcase" icons='["icons:necto", "devicon:csharp"]'}
     #title
-    Lua As Configuration
+    C# Starter Kit
     #description
-    Lua App with Lua-Based Configuration and Necto Utilities
+    Pre-configured C# project with optimized runtime alternatives.
     ::: 
 
     :::card{type="showcase" to="https://github.com/nectoutil/examples/tree/main/with-go" icons='["icons:necto", "fa6-brands:golang~[#00B4E0]"]'}
@@ -35,9 +35,16 @@ We've built some [templates](https://github.com/nectoutil/examples) that include
 ::content-showcase{title="Tools"}
     :::card{type="showcase" to="https://github.com/nectoutil/examples/tree/main/with-rollup" icons='["icons:necto", "devicon:rollup"]'}
     #title
-    Rollup
+    Rollup Started
     #description
     Utility plugins for Rollup with Necto.
+    :::
+
+    :::card{type="showcase" to="https://github.com/nectoutil/examples/tree/main/with-rollup" icons='["icons:necto", "logos:webpack"]'}
+    #title
+    Webpack Starter
+    #description
+    Minimal Webpack setup for quick project initialization.
     :::
 ::
 
