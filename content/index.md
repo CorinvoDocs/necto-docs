@@ -7,7 +7,7 @@ description: Are you new to Necto? Want to jump start your journey to get develo
 
 We've built some [templates](https://github.com/nectoutil/examples) that include Necto integrations for different languages, frameworks, and toolings. You can use these templates to get started with your Necto-powered application.
 
-::content-showcase{title="Languages"}
+::content-showcase{title="&Languages"}
     :::card
     ---
     type: showcase
@@ -37,7 +37,7 @@ We've built some [templates](https://github.com/nectoutil/examples) that include
     :::
 ::  
 
-::content-showcase{title="Frameworks"}
+::content-showcase{title="&Frameworks"}
     :::card
     ---
     type: showcase
@@ -69,7 +69,7 @@ We've built some [templates](https://github.com/nectoutil/examples) that include
     :::
 ::
 
-::content-showcase{title="Tools"}
+::content-showcase{title="&Tools"}
     :::card
     ---
     type: showcase
@@ -98,8 +98,6 @@ We've built some [templates](https://github.com/nectoutil/examples) that include
     Minimal Webpack setup for quick project initialization.
     :::
 ::
-
----
 
 ::content-showcase{heading="Necto at Corinvo" title="Corinvo's open source tools built on Necto"}
     :::card{type="full" label="CLIFlow" icon="icons:cliflow" to="https://cliflow.org"}
