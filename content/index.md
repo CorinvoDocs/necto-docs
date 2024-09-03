@@ -102,7 +102,7 @@ We've built some [templates](https://github.com/nectoutil/examples) that include
 ---
 
 ::content-showcase{heading="Necto at Corinvo" title="Corinvo's open source tools built on Necto"}
-    :::card{label="CLIFlow" icon="icons:cliflow" to="https://cliflow.org"}
+    :::card{type="full" label="CLIFlow" icon="icons:cliflow" to="https://cliflow.org"}
     #description
     CLIFlow is a fast cli commander, builder and managment framework.
     :::
