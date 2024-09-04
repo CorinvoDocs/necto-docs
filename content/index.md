@@ -104,4 +104,9 @@ We've built some [templates](https://github.com/nectoutil/examples) that include
     #description
     CLIFlow is a fast cli commander, builder and managment framework.
     :::
+
+    :::card{type="full" label="Sprocket UI" icon="icons:sprocket" to="https://cliflow.org"}
+    #description
+    Sprocket is a headless, unstyled ui design system.
+    :::
 ::
